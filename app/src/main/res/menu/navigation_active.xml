@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--  <item
+          android:id="@+id/action_settings"
+          android:orderInCategory="100"
+          android:title="@string/action_settings"
+          app:showAsAction="never" />-->
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="1"
+        android:title="@string/Refresh"
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/ic_action_calendar"
+        android:orderInCategory="2"
+        android:title="Calendar"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/oneWeek"
+                    android:checked="true"
+                    android:showAsAction="never"
+                    android:title="1 Week" />
+
+                <item
+                    android:id="@+id/oneMonth"
+                    android:showAsAction="never"
+                    android:title="1 Month" />
+
+                <item
+                    android:id="@+id/twoMonth"
+
+                    android:showAsAction="never"
+                    android:title="2 Month" />
+
+                <item
+                    android:id="@+id/threeMonth"
+                    android:showAsAction="never"
+                    android:title="3 Month" />
+                <item
+                    android:id="@+id/fourMonth"
+
+                    android:showAsAction="never"
+                    android:title="4 Month" />
+                <item
+                    android:id="@+id/fiveMonth"
+
+                    android:showAsAction="never"
+                    android:title="5 Month" />
+                <item
+                    android:id="@+id/sixMonth"
+
+                    android:showAsAction="never"
+                    android:title="6 Month" />
+                <item
+                    android:id="@+id/custom"
+
+                    android:showAsAction="never"
+                    android:title="Custom" />
+            </group>
+        </menu>
+    </item>
+    <!-- <item
+         android:id="@+id/menu_right"
+         android:orderInCategory="2"
+         app:showAsAction="always"
+         android:icon="@mipmap/ic_action_menu_right"/>-->
+    <!-- android:title="settings" -->
+</menu>

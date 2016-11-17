@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <TextView
+            android:id="@+id/direct_sessioncount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/direct_pageviewcount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+        <!--  <TextView
+              android:id="@+id/facebook_avg_sessioncount"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:paddingBottom="5dp"
+              android:paddingTop="5dp"
+              android:text="sss"
+              android:textColor="@color/reachdetailed_blue"
+              android:textSize="12sp" />-->
+        <TextView
+            android:id="@+id/direct_bouncerate_count"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="sss"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/reachdetailed_blue"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+
+    </LinearLayout>
+
+  <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/reachview"
+        android:paddingBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/organic_sessioncount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/organic_pageviewcount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+        <!--    <TextView
+                android:id="@+id/linkedin_avg_sessioncount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:text="sss"
+                android:layout_weight="1"
+                android:textColor="@color/reachdetailed_blue"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>-->
+
+        <TextView
+            android:id="@+id/organic_bouncerate_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/reachview"
+        android:gravity="center"
+        android:paddingBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/social_sessioncount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/social_pageviewcount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+        <!-- <TextView
+             android:id="@+id/twitter_avg_sessioncount"
+             android:layout_width="0dp"
+             android:gravity="center"
+             android:layout_height="wrap_content"
+             android:textSize="12sp"
+             android:text="sss"
+             android:layout_weight="1"
+             android:textColor="@color/reachdetailed_blue"
+             android:paddingTop="5dp"
+             android:paddingBottom="5dp"/>
+ -->
+        <TextView
+            android:id="@+id/social_bouncerate_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+ <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/reachview"
+        android:paddingBottom="5dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/referral_sessioncount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/referral_pageviewcount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+        <!-- <TextView
+             android:id="@+id/twitter_avg_sessioncount"
+             android:layout_width="0dp"
+             android:gravity="center"
+             android:layout_height="wrap_content"
+             android:textSize="12sp"
+             android:text="sss"
+             android:layout_weight="1"
+             android:textColor="@color/reachdetailed_blue"
+             android:paddingTop="5dp"
+             android:paddingBottom="5dp"/>
+ -->
+        <TextView
+            android:id="@+id/referral_bouncerate_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="sss"
+            android:textColor="@color/reachdetailed_blue"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/reachview"
+        android:paddingBottom="5dp"
+        android:visibility="visible"/>
+
+</LinearLayout>

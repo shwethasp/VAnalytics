@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- <item android:drawable="@drawable/floatbutton_add" android:state_focused="true" android:state_pressed="true"></item>
+     <item android:drawable="@drawable/button_add" android:state_focused="false" android:state_pressed="false"></item>
+ -->
+
+    <item android:drawable="@drawable/floatbutton_add" android:state_focused="true" android:state_pressed="false" >
+        <color android:color="@color/black" />
+    </item>
+    <item android:drawable="@drawable/button_add" android:state_focused="false" android:state_pressed="true" /><!-- focused -->
+
+
+</selector>

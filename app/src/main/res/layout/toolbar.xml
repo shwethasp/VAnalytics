@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_container"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar"
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <Spinner
+            android:id="@+id/toolbar_profiles"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/page_view_adholder"
+        android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/ad_in_house"
+            android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/nav_bg" />
+
+      <!--  <com.google.android.gms.ads.AdView
+            android:adSize="SMART_BANNER"
+            android:adUnitId="@string/e6bandroids_ad_id"
+            android:id="@+id/adView"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />-->
+    </FrameLayout>
+</LinearLayout>

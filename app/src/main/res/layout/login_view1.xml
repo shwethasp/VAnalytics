@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/accounts_main_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/addbackground"
+        android:fitsSystemWindows="true">
+        <!--
+                <android.support.v7.widget.Toolbar
+
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   />-->
+
+        <!--    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">-->
+
+        <LinearLayout
+            android:id="@+id/logolayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@mipmap/logo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/accounts_select_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/accounts_add_account1"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/accounts_select_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="@string/select_google_account"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/accounts_select_account_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/accounts_select_account"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:text="@string/select_account_message"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/white">
+
+                <Spinner
+                    android:id="@+id/accounts_list_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+
+                    android:popupBackground="@drawable/spinner_bg_selector"
+                    android:textAlignment="center" />
+            </RelativeLayout>
+            <!--   android:popupBackground="@android:color/transparent"
+            android:background="@drawable/toolbar_spinnerbg"-->
+            <!--   <RelativeLayout
+                   android:id="@+id/relative_spinner"
+                   android:layout_width="match_parent"
+                   android:layout_height="45dp"
+                   android:layout_below="@+id/accounts_select_account_message"
+                   android:layout_marginLeft="40dp"
+                   android:layout_marginRight="40dp"
+                   android:layout_marginTop="15dp"
+                   android:background="#FFFFFF"
+                   android:paddingRight="10dp">
+
+                   <Spinner
+                       android:id="@+id/accounts_list_view"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_centerHorizontal="true"
+                       android:textAlignment="center" />
+               </RelativeLayout>-->
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+
+            android:id="@+id/accounts_add_account1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/view"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_add_white"
+            app:backgroundTint="@android:color/black" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

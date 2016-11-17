@@ -1,0 +1,43 @@
+package common.util;
+
+public class Constants {
+    public static final String ADS = "ads";
+    public static final String AD_CLIC = "ads_clic";
+    public static final String AD_FAIL = "ads_fail";
+    public static final String AD_FULL_SCREEN_CLIC = "ads_full_screen_clic";
+    public static final String AD_FULL_SCREEN_CLOSED = "ads_full_screen_closed";
+    public static final String AD_FULL_SCREEN_FAIL = "ads_full_screen_fail";
+    public static final String AD_FULL_SCREEN_RECEIVED = "ads_full_screen_received";
+    public static final String AD_FULL_SCREEN_SHOWED = "ads_full_screen_showed";
+    public static final String AD_REMOVE_SETTINGS = "ads_remove_settings";
+    public static final String AD_REQUEST = "ads_request";
+    public static final String CANCEL_GOPRO = "cancel_gopro";
+    public static final String CANCEL_REMINDER = "cancel_reminder";
+    public static final String EVENT_ACTION_IAB_FINISHED = "iab_finished";
+    public static final String EVENT_ACTION_IAB_PURCHASED = "iab_purchased";
+    public static final String EVENT_ACTION_IAB_START = "iab_start";
+    public static final String EVENT_CATEGORY_IAB = "iab";
+    public static final String FEATURE_DIALOG = "feature_dialog";
+    public static final String GOPRO_REMINDER = "gopro_reminder";
+    public static final String PREF_ADS_FIRST_TIME = "pref_ads_first_time";
+    public static final String PREF_ADS_FULL_SCREEN_CLOSE_TIMES = "pref_ads_full_screen_close_times";
+    public static final String PREF_ADS_FULL_SCREEN_COUNT = "pref_ads_full_screen_count";
+    public static final String PREF_ADS_FULL_SCREEN_COUNT_DAY = "pref_ads_full_screen_count_day";
+    public static final String PREF_ADS_FULL_SCREEN_LAST_CLIC = "pref_ads_full_screen_last_clic";
+    public static final String PREF_ADS_FULL_SCREEN_SHOWED = "pref_ads_full_screen_showed";
+    public static final String PREF_ADS_LAST_CLIC = "pref_ads_last_clic";
+    public static final String PREF_ADS_LAST_MSG = "pref_ads_last_msg";
+    public static final String PREF_ADS_SIMPLE_COUNT = "pref_ads_simple_count";
+    public static final String PREF_ADS_SIMPLE_COUNT_DAY = "pref_ads_simple_count_day";
+    public static final String PREF_API_VERSION = "api_version";
+    public static final String PREF_APP_LAUNCH = "pref_app_launch";
+    public static final String PREF_APP_VERSION = "app_version";
+    public static final String PREF_ONBOARDING_COUNT = "pref_onboarding_count";
+    public static final String PREF_PROFILES_NEED_UPDATE = "need_update";
+    public static final String REMINDER_DIALOG = "reminder_dialog";
+    public static final String SHOW_REMINDER = "show_reminder";
+    public static final String TAG_FEATURE_DIALOG = "tag_feature_dialog";
+    public static final String TAG_MESSAGE_CODE = "tag_message_code";
+    public static final String TAG_MESSAGE_DIALOG = "tag_message_dialog";
+    public static final String VERSION_CODE = "version_code";
+}

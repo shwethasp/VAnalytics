@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="columnOptionsArray">
+        <item>@string/Sort</item>
+        <item>@string/custom_metrics</item>
+        <item>@string/default_metrics</item>
+    </array>
+    <array name="periodStrArray">
+        <item>@string/date_yesterday</item>
+        <item>@string/date_today</item>
+        <item>@string/date_one_week</item>
+        <item>@string/date_two_weeks</item>
+        <item>@string/date_three_weeks</item>
+        <item>@string/date_four_weeks</item>
+        <item>@string/date_one_month</item>
+        <item>@string/date_two_months</item>
+        <item>@string/date_six_months</item>
+        <item>@string/date_one_year</item>
+        <item>@string/date_two_years</item>
+        <item>@string/date_custom</item>
+    </array>
+    <array name="periodValuesArray">
+        <item>-2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>8</item>
+        <item>24</item>
+        <item>48</item>
+        <item>96</item>
+        <item>-1</item>
+    </array>
+    <array name="periodWidgetStrArray">
+        <item>@string/date_yesterday</item>
+        <item>@string/date_today</item>
+        <item>@string/date_one_week</item>
+        <item>@string/date_two_weeks</item>
+        <item>@string/date_three_weeks</item>
+        <item>@string/date_four_weeks</item>
+        <item>@string/date_one_month</item>
+        <item>@string/date_two_months</item>
+        <item>@string/date_six_months</item>
+        <item>@string/date_one_year</item>
+        <item>@string/date_two_years</item>
+    </array>
+    <array name="roboguice_modules">
+        <item>com.e6bapps.ganalytics.injector.AnalyticsModule</item>
+    </array>
+    <array name="themeStrArray">
+        <item>Light</item>
+        <item>Dark</item>
+    </array>
+    <array name="themeValuesArray">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="threeColumnsStrArray">
+        <item>@string/Graph</item>
+    </array>
+</resources>

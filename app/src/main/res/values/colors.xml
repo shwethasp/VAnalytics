@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#1976d2</color>
+    <color name="colorPrimary">#DB574C</color>
+    <color name="colorPrimaryDark">#ea7e75</color>
+    <color name="colorAccent">#9f67d4</color>
+
+
+    <color name="background_gray_degree_1">#e9eef2</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="blue_text">#214d7d</color>
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+
+    <color name="chart_fill_color">#992196f3</color>
+
+    <color name="colorPrimaryDarkLight">#1e88e5</color>
+    <color name="colorPrimaryDark_noLight">#DB574C</color>
+    <color name="colorPrimaryLight">#2196f3</color>
+    <color name="colorPrimary_dark">#667788</color>
+    <color name="colorPrimary_noLight">#DB574C</color>
+    <color name="black">#333333</color>
+    <color name="gray">#FF5E5C5C</color>
+    <color name="lightgray">#c2c1c1</color>
+    <color name="background_color">#DB574C</color>
+    <color name="stattext">#767474</color>
+    <color name="skyblue">#51B6E7</color>
+    <color name="yellow">#FCD007</color>
+    <color name="pink">#EE4081</color>
+    <color name="violet">#6A6CB2</color>
+    <color name="reachdetailed_blue">#2196F3</color>
+    <color name="totalcolor">#EE4081</color>
+   <!-- <color name="reachsourcetext">#424141</color>-->
+    <color name="reachview">#D8D5D5</color>
+    <color name="source_text">#424141</color>
+    <color name="screen_background">#f4f3f8</color>
+    <color name="daterange_color">#9A9898</color>
+    <color name="calbutton_focus">#e0f46e6e</color>
+
+
+
+
+
+</resources>

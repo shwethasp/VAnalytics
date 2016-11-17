@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profiles_list_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1.0">
+
+        <ListView
+            android:id="@+id/profiles_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDarkLight"
+            android:clipToPadding="false"
+
+            android:paddingTop="10dp" />
+
+        <include layout="@layout/toolbar" />
+    </RelativeLayout>
+
+    <com.e6bapps.common.view.FeedbackView
+        android:id="@+id/feedback_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+      />
+
+    <LinearLayout
+        android:id="@+id/profile_list_accounts_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/profile_list_accounts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:text="@string/AuthAccount" />
+    </LinearLayout>
+</LinearLayout>

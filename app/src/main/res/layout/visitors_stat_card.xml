@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/source_card_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="5dp"
+
+    android:layout_marginTop="5dp"
+    card_view:cardCornerRadius="2dp"
+    card_view:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detailed_statistics"
+                android:textColor="@color/background_color"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/stattext"
+                android:text="@string/detailed_stat_text"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/HeadingLinear"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#EDEDED"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="Source"
+                android:textColor="@color/source_text"
+                android:textSize="12sp" />
+
+            <LinearLayout
+
+                android:id="@+id/visitor_weekcustom_metrics_layout"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="26dp"
+                    android:paddingTop="5dp"
+                    android:text="Session"
+                    android:textColor="@color/source_text"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="6dp"
+                    android:paddingTop="1dp"
+                    android:paddingLeft="12dp"
+                    android:text="Page Views"
+                    android:textColor="@color/source_text"
+                    android:textSize="12sp" />
+                <!--   <TextView
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textSize="12sp"
+                       android:layout_weight="1"
+                      android:padding="5dp"
+                       android:text="Avg Session"
+                       android:textColor="@color/source_text"
+                       />-->
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="Bounce Rate"
+                    android:textColor="@color/source_text"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/customweek_Visitors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/source_text"
+                android:textSize="12sp" />
+
+            <LinearLayout
+
+                android:id="@+id/reach_monthlayout_Visitors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:textColor="@color/skyblue"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+
+
+                    <TextView
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="2dp"
+                        android:text="Direct Traffic"
+                        android:textColor="@color/source_text"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/reachview"
+                    android:paddingBottom="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:textColor="@color/yellow"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="2dp"
+                        android:text="Organic"
+
+                        android:textColor="@color/source_text"
+
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/reachview"
+                    android:paddingBottom="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:textColor="@color/violet"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:text="Social Media"
+                        android:textColor="@color/source_text"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/reachview"
+                    android:paddingBottom="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"
+                        android:textColor="@color/pink"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="2dp"
+                        android:text="Referrals"
+                        android:textColor="@color/source_text"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/reachview"
+                    android:paddingBottom="5dp" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/total_txt_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/total_visitor_text"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Total"
+                        android:textColor="@color/source_text"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/visitor_view3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/reachview"
+                    android:paddingBottom="5dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/cusweekFB_Visitors"
+                            android:layout_width="280dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text=" "
+                            android:textColor="@color/source_text"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/reachview"
+                        android:paddingBottom="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cusweekLI_Visitors"
+                            android:layout_width="280dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text=""
+
+                            android:textColor="@color/source_text"
+
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+
+                    <View
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/reachview"
+                        android:paddingBottom="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/cusweekTW_Visitors"
+                            android:layout_width="280dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text=" "
+                            android:textColor="@color/source_text"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/reachview"
+                        android:paddingBottom="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cusweekReferral_Visitors"
+                            android:layout_width="280dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text=""
+                            android:textColor="@color/source_text"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/reachview"
+                        android:paddingBottom="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:id="@+id/total_layout">
+
+                        <TextView
+                            android:id="@+id/cusweekTotal"
+                            android:layout_width="280dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text=""
+                            android:textColor="@color/source_text"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/dummy_visitor_totalview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:visibility="gone"
+                        android:background="@color/reachview"
+                        android:paddingBottom="5dp" />
+                </LinearLayout>
+                <!--
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="|"
+                                            android:textColor="@color/skyblue"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold"
+                                            android:visibility="gone" />
+
+                                        <TextView
+                                            android:id="@+id/cusweekFB_Visitors"
+                                            android:layout_width="280dp"
+                                            android:layout_height="wrap_content"
+                                            android:paddingBottom="5dp"
+                                            android:paddingLeft="48dp"
+                                            android:paddingTop="5dp"
+                                            android:textColor="@color/skyblue"
+                                            android:textSize="10sp" />
+                                    </LinearLayout>
+
+
+                                    <View
+                                        android:layout_width="match_parent"
+                                        android:layout_height="1dp"
+                                        android:background="@color/reachview"
+                                        android:paddingBottom="5dp" />
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="|"
+                                            android:textColor="@color/pink"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold"
+                                            android:visibility="gone" />
+
+                                        <TextView
+                                            android:id="@+id/cusweekLI_Visitors"
+                                            android:layout_width="280dp"
+                                            android:layout_height="wrap_content"
+                                            android:paddingBottom="5dp"
+                                            android:paddingLeft="48dp"
+                                            android:paddingTop="5dp"
+                                            android:text=""
+
+                                            android:textColor="@color/skyblue"
+
+                                            android:textSize="10sp" />
+                                    </LinearLayout>
+
+
+                                    <View
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="1dp"
+                                        android:background="@color/reachview"
+                                        android:paddingBottom="5dp" />
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="|"
+                                            android:textColor="@color/yellow"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold"
+                                            android:visibility="gone" />
+
+                                        <TextView
+                                            android:id="@+id/cusweekTW_Visitors"
+                                            android:layout_width="280dp"
+                                            android:layout_height="wrap_content"
+                                            android:paddingBottom="5dp"
+                                            android:paddingLeft="48dp"
+                                            android:paddingTop="5dp"
+                                            android:text=""
+                                            android:textColor="@color/skyblue"
+                                            android:textSize="10sp" />
+
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="1dp"
+                                        android:background="@color/reachview"
+                                        android:paddingBottom="5dp" />
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="|"
+                                            android:textColor="@color/yellow"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold"
+                                            android:visibility="gone" />
+
+                                        <TextView
+                                            android:id="@+id/cusweekReferral_Visitors"
+                                            android:layout_width="280dp"
+                                            android:layout_height="wrap_content"
+                                            android:paddingBottom="5dp"
+                                            android:paddingLeft="48dp"
+                                            android:paddingTop="5dp"
+                                            android:text=""
+                                            android:textColor="@color/skyblue"
+                                            android:textSize="10sp" />
+
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="1dp"
+                                        android:background="@color/reachview"
+                                        android:paddingBottom="5dp" />
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="|"
+                                            android:textColor="@color/yellow"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold"
+                                            android:visibility="gone" />
+
+                                        <TextView
+                                            android:id="@+id/cusweekTotal"
+                                            android:layout_width="280dp"
+                                            android:layout_height="wrap_content"
+                                            android:paddingBottom="5dp"
+                                            android:paddingLeft="48dp"
+                                            android:paddingTop="5dp"
+                                            android:text=""
+                                            android:textColor="@color/pink"
+                                            android:textSize="10sp" />
+
+                                    </LinearLayout>
+
+                                    <View
+                                        android:id="@+id/dummy_visitor_totalview"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="1dp"
+                                        android:background="@color/reachview"
+                                        android:paddingBottom="5dp" />
+                                </LinearLayout>-->
+
+
+                <LinearLayout
+                    android:id="@+id/stat_layout_Visitors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:visibility="gone">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/visitor_weekmonth_dynamic_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

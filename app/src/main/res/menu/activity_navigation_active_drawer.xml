@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/websites"
+            android:icon="@drawable/website_icon"
+            android:title="Websites" />
+   <!-- </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp2">-->
+
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/aboutus_icon"
+            android:title="About us" />
+      <!--  </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp3">-->
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/signout_icon"
+            android:title="Sign out" />
+
+   <!-- </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp4">-->
+       </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
